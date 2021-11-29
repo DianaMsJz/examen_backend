@@ -1,0 +1,7 @@
+CREATE TABLE libros (
+	id BIGINT PRIMARY KEY,
+	titulo VARCHAR(255) NOT NULL,
+	autor VARCHAR(255) NOT NULL,
+	genero VARCHAR(255) NOT NULL,
+	edicion INT NOT NULL
+);
